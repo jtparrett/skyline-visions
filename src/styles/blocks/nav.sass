@@ -1,0 +1,21 @@
+.nav
+    overflow: hidden
+    font-size: 0
+    
+    &__link
+        display: inline-block
+        text-transform: uppercase
+        padding: 0 10px
+        font-size: 18px
+        color: $light
+        text-decoration: none
+
+        &--active
+            color: $black
+
+    @media all and (max-width: 768px)
+        text-align: center
+
+        &__link
+            font-size: 14px
+            padding: 0 5px

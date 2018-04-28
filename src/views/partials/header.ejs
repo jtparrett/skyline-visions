@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,700i" rel="stylesheet" />
+    <link href="application.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="wrapper">
+    <header class="header">
+        <a href="/">
+            <img src="/assets/skyline-visions.png" class="header__logo" />
+        </a>
+
+        <nav class="nav">
+            <a class="nav__link <%- filename === 'index' && 'nav__link--active' -%>" href="/">Home</a>
+            <a class="nav__link <%- filename === 'about' && 'nav__link--active' -%>" href="/about.html">About</a>
+            <a class="nav__link <%- filename === 'gallery' && 'nav__link--active' -%>" href="/gallery.html">Gallery</a>
+            <a class="nav__link <%- filename === 'contact' && 'nav__link--active' -%>" href="/contact.html">Contact</a>
+        </nav>
+    </header>
+</div>

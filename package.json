@@ -1,0 +1,17 @@
+{
+  "name": "skyline-visions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./generator"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "ejs": "^2.5.9",
+    "fs-extra": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "node-watch": "^0.5.8"
+  }
+}
